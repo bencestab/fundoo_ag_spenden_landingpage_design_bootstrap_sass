@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="650.538" height="650.538" viewBox="0 0 650.538 650.538">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.697" y1="-0.497" x2="0.467" y2="0.817" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#cccc3b"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rechteck_725" data-name="Rechteck 725" width="572" height="348" rx="174" transform="translate(404.465 650.538) rotate(-135)" fill="url(#linear-gradient)"/>
+</svg>

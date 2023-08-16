@@ -1,0 +1,205 @@
+:root {
+  --btn-yellow: #CCCC3B;
+  --btn-yellow-hover: #9c9c2b;
+  --header-underline: #9F00FF;
+}
+
+.header1 {
+  text-decoration: underline;
+  text-decoration-color: var(--header-underline);
+  font-size: 400%;
+  font: normal normal 900 60px/80px Montserrat;
+  letter-spacing: 0.6px;
+}
+
+.p1 {
+  font: normal normal bold 23px/30px Roboto;
+  color: #1E1C36;
+}
+
+.p2 {
+  font: normal normal normal 23px/30px Roboto;
+  color: #1E1C36;
+}
+
+.papierlose-section {
+  width: 50%;
+  height: 20%;
+}
+
+.btn-yellow {
+  background-color: var(--btn-yellow);
+  border-radius: 1.5rem;
+
+  &:hover {
+    background-color: var(--btn-yellow-hover);
+  }
+}
+
+.section-bg-first {
+  background-image: url('../assets/img/Rechteck 648.svg');
+  background-repeat: no-repeat;
+  background-position: -350px 100px;
+  background-size: 90%;
+}
+
+.section-img-first {
+  width: 80%;
+}
+
+.papierlose-bg {
+  background-image: url('../assets/img/Papierlos.svg');
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: 95% 5%;
+
+}
+
+.projekt-starten {
+  background-image: url('../assets/img/IMG_1212@2x.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 30.5%;
+  text-align: center;
+  position: relative;
+  border-radius: 1.5rem;
+  overflow: hidden;
+
+  & .grey-filter {
+    background-color: var(--black-29);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+}
+
+.section-bg-second {
+  background-image: url("../assets/img/kooperation.svg"), url('../assets/img/Rechteck 648.svg');
+  background-repeat: no-repeat;
+  background-position: right bottom, 330% 0%;
+  background-size: 35%, 90%;
+  padding-bottom: 10%;
+}
+
+.software-img {
+  background-image: url('../assets/img/software2.svg');
+  background-repeat: no-repeat;
+  background-size: 75%;
+  background-position: -200px -220px;
+}
+
+.ansprechpartner-bg {
+  background-image: url('../assets/img/Rechteck\ 722.svg');
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: 30% 70%;
+}
+
+.ansprechpartner-img {
+  width: 90%;
+}
+
+@include media-breakpoint-down(xxl) {
+
+
+  .software-img {
+    background-size: 75%;
+    background-position: -150px -150px;
+  }
+}
+
+@include media-breakpoint-down(xl) {
+
+  .section-bg-second {
+    background-position: right bottom, 330% 50%;
+    background-size: 35%, 90%;
+  }
+
+  .software-img {
+    background-size: 75%;
+    background-position: -120px -120px;
+  }
+}
+
+@include media-breakpoint-down(lg) {
+
+  .section-img-first {
+    width: 100%;
+  }
+
+  .papierlose-bg {
+    background-size: 50%;
+    background-position: 100% 5%;
+
+  }
+
+  .section-bg-second {
+    background-position: right -140% bottom -50%, 350% 100%;
+    background-size: 90% 60%;
+  }
+
+  .ansprechpartner-img {
+    width: 110%;
+  }
+
+  .ansprechpartner-bg {
+    background-size: 50%;
+    background-position: 30% 70%;
+  }
+
+  .software-img {
+    background-size: 75%;
+    background-position: -120px -100px;
+  }
+
+}
+
+@include media-breakpoint-down(md) {
+
+  .section-bg-first {
+    background-size: 150% 80%;
+    background-position: 180% 0% 100% 100%;
+  }
+
+
+  .papierlose-bg {
+    background-size: 50%;
+    background-position: 100% 5%;
+
+  }
+
+  h1 {
+    font-size: 120%;
+  }
+
+
+  .section-bg-second {
+    background-image: url('../assets/img/Rechteck 648.svg');
+    background-position: -80%;
+    background-size: 150%;
+
+  }
+
+  .software-img {
+    background-size: 85%;
+    background-position: -120px -80px;
+  }
+
+  .ansprechpartner-img {
+    width: 110%;
+  }
+
+  .ansprechpartner-bg {
+    background-size: 50%;
+    background-position: 30% 70%;
+  }
+
+  .header1 {
+    font-size: 350%;
+
+  }
+
+
+}

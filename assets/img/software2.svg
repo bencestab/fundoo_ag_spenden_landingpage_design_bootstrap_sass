@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.4.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1117.091 1117.091" style="enable-background:new 0 0 1117.091 1117.091;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:url(#Rechteck_723_00000137829898000715218100000013458294492764275854_);}
+	.st2{fill:#F2F2F2;}
+	.st3{fill:url(#handy_neutral_00000136400565619267028820000000545776352331386030_);}
+</style>
+<pattern  x="260.907" y="979.49" width="4518.101" height="4656" patternUnits="userSpaceOnUse" id="pattern_8" viewBox="68.95 -4656 4518.101 4656" style="overflow:visible;">
+	<g>
+		<rect x="68.95" y="-4656" class="st0" width="4518.101" height="4656"/>
+		
+			<image style="overflow:visible;enable-background:new  ;" width="3656" height="3656" xlink:href="handy_neutral.png"  transform="matrix(1 0 0 -1 0 0)">
+		</image>
+	</g>
+</pattern>
+<g id="gelbe_x5F_Fläche">
+	
+		<linearGradient id="Rechteck_723_00000091721274277347573300000006868084403099043245_" gradientUnits="userSpaceOnUse" x1="261.7093" y1="979.2319" x2="260.9402" y2="978.8129" gradientTransform="matrix(520 0 0 -520 -135410.8281 509549.6875)">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="1" style="stop-color:#CCCC3B"/>
+	</linearGradient>
+	<path id="Rechteck_723" style="fill:url(#Rechteck_723_00000091721274277347573300000006868084403099043245_);" d="M417.477,231.01
+		L417.477,231.01c143.594,0,260,116.406,260,260l0,0c0,143.594-116.406,260-260,260l0,0c-143.594,0-260-116.406-260-260l0,0
+		C157.477,347.416,273.883,231.01,417.477,231.01z"/>
+</g>
+<g id="weisse_x5F_Fläche">
+	<path id="Rechteck_724" class="st2" d="M399.301,577.604l158.392-158.392c67.951-67.951,178.122-67.951,246.073,0l0,0
+		c67.951,67.951,67.951,178.122,0,246.073L645.374,823.677c-67.951,67.951-178.122,67.951-246.073,0l0,0
+		C331.35,755.726,331.35,645.555,399.301,577.604z"/>
+</g>
+<g id="Computer">
+	
+		<image style="overflow:visible;enable-background:new    ;" width="4656" height="4656" id="computer" xlink:href="./computer.png"  transform="matrix(0.1203 0 0 0.1203 163.218 177.8508)">
+	</image>
+</g>
+<g id="handy">
+	
+		<pattern  id="handy_neutral_00000113318721633500007180000006167797625139941559_" xlink:href="#pattern_8" patternTransform="matrix(0.052 0 0 -0.052 -7480.1641 -12374.5215)">
+	</pattern>
+	
+		<polygon id="handy_neutral_00000039103168270057674540000010062062127285482933_" style="fill:url(#handy_neutral_00000113318721633500007180000006167797625139941559_);" points="
+		264.667,419.307 398.349,426.29 391.788,604.864 258.106,597.881 	"/>
+</g>
+<g id="Diagramm">
+	<g transform="matrix(1, 0, 0, 1, 0, 0)">
+		
+			<image style="overflow:visible;enable-background:new    ;" width="2732" height="2048" id="Chart-2" xlink:href="./chart.png"  transform="matrix(0.1154 0 0 0.1154 494.9608 264.055)">
+		</image>
+	</g>
+</g>
+</svg>
