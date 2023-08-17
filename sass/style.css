@@ -12070,7 +12070,7 @@ textarea.form-control-lg {
 
 .ansprechpartner-bg {
   background-image: url("../assets/img/Rechteck 722.svg");
-  background-size: 40%;
+  background-size: 35%;
   background-repeat: no-repeat;
   background-position: 30% 70%;
 }
@@ -12094,7 +12094,12 @@ textarea.form-control-lg {
     background-size: 75%;
     background-position: -120px -120px;
   }
+  .ansprechpartner-bg {
+    background-size: 40%;
+    background-position: 25% 100%;
+  }
 }
+/* ----------------------------------------------------------------------------------------------- */
 @media (max-width: 991.98px) {
   .section-img-first {
     width: 100%;
@@ -12104,7 +12109,7 @@ textarea.form-control-lg {
     background-position: 100% 5%;
   }
   .section-bg-second {
-    background-position: right -140% bottom -50%, 350% 100%;
+    background-position: right -190% bottom -24%, 350% 100%;
     background-size: 90% 60%;
   }
   .ansprechpartner-img {
@@ -12112,28 +12117,29 @@ textarea.form-control-lg {
   }
   .ansprechpartner-bg {
     background-size: 50%;
-    background-position: 30% 70%;
+    background-position: 30% 100%;
   }
   .software-img {
     background-size: 75%;
-    background-position: -120px -100px;
+    background-position: -120px -30px;
   }
 }
+/* ----------------------------------------------------------------------------------------------- */
 @media (max-width: 767.98px) {
   .section-bg-first {
-    background-size: 150% 80%;
-    background-position: 180% 0% 100% 100%;
+    background-size: 150%;
+    background-position: 180% 0%;
   }
   .papierlose-bg {
     background-size: 50%;
-    background-position: 100% 5%;
+    background-position: 100% 0%;
   }
   h1, .h1 {
     font-size: 120%;
   }
   .section-bg-second {
     background-image: url("../assets/img/Rechteck 648.svg");
-    background-position: -80%;
+    background-position: -80% 100%;
     background-size: 150%;
   }
   .software-img {
@@ -12149,5 +12155,28 @@ textarea.form-control-lg {
   }
   .header1 {
     font-size: 350%;
+  }
+}
+/* ----------------------------------------------------------------------------------------------- */
+@media (max-width: 575.98px) {
+  .section-bg-first {
+    background-size: 150%;
+    background-position: 180% 0%;
+  }
+  .projekt-starten {
+    padding-bottom: 38.5%;
+  }
+  .section-bg-second {
+    background-image: url("../assets/img/Rechteck 648.svg");
+    background-position: -40% 100%;
+    background-size: 200%;
+  }
+  .software-img {
+    background-size: 120%;
+    background-position: -60px -75px;
+  }
+  .ansprechpartner-bg {
+    background-size: 50%;
+    background-position: 25% 75%;
   }
 }/*# sourceMappingURL=style.css.map */
