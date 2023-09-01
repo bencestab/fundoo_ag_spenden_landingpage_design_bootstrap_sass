@@ -12003,11 +12003,6 @@ textarea.form-control-lg {
   color: #1E1C36;
 }
 
-.papierlose-section {
-  width: 50%;
-  height: 20%;
-}
-
 .btn-yellow {
   background-color: var(--btn-yellow);
   border-radius: 1.5rem;
@@ -12177,6 +12172,6 @@ textarea.form-control-lg {
   }
   .ansprechpartner-bg {
     background-size: 50%;
-    background-position: 25% 75%;
+    background-position: -50% 75%;
   }
 }/*# sourceMappingURL=style.css.map */
